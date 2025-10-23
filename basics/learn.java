@@ -19,14 +19,14 @@ public class learn {
         System.out.println(a.charAt(4));
 
         boolean isActive = true;
-        isActive = false;
-
-        Scanner scan = new Scanner(System.in);
-        System.out.print("enter a name :");
-        String name = scan.nextLine();
-
-        System.out.println("Welcome , "+name );
-
+        // isActive = false;
+        try (Scanner scan = new Scanner(System.in)) {
+            System.out.print("enter a name :");
+            String name = scan.nextLine();
+            
+            System.out.println("Welcome , "+name );
+            System.out.println(s+c+" "+isActive);
+        }
 
     }
 }
