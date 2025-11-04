@@ -1,5 +1,2 @@
 ### Scanner Link :
   https://chatgpt.com/share/68e4e8aa-7f70-800c-a529-2b1bd0968109
-
-### OOP Link :
-    https://chatgpt.com/share/68f9ee3e-ab40-800c-9230-355356512d79
