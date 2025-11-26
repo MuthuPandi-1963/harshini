@@ -1,21 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>Learn DOM</h1>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <!-- <h1>Learn DOM</h1>
     <div id="root"></div>
     <button id="btn">Login</button>
     <button id="btn1">Login</button>
 <div class="" style="display: grid;justify-content: center;">
     <input type="text" name="username" value="" >
     <span id="msg"></span>
-</div>
+</div> -->
+
+    <div class="login-form">
+        <form id="form-event">
+          <h2>Login</h2>
+        <div class="username">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" placeholder="enter a username" />
+          <span class="error"></span>
+        </div>
+        <div class="email">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" placeholder="enter a email" />
+          <span class="error"></span>
+
+        </div>
+        <div class="password">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="enter a password"
+          />
+          <span class="error"></span>
+
+        </div>
+        <button 
+        type="button" 
+        id="btn">Login</button>
+        <button 
+        type="submit" 
+        id="btn1">Login</button>
+      </form>
+    </div>
 
     <script src="./index.js"></script>
-
-</body>
+  </body>
 </html>
